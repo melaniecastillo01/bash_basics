@@ -19,6 +19,5 @@ hour=$(date +%H)
 if [ "$hour" -lt 12 ]; then
     echo "Good morning!"
 else
-    echo "It is not morning."
+    echo "Good afternoon or evening!"
 fi
-
